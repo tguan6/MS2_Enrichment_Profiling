@@ -1,6 +1,6 @@
 //Macro for nuclear masking and measuring intisity in channel of interest
 //Created by TG 091025
-
+ 
 // --------------------【Parameter_Setting】--------------------
 Dialog.create("Parameter ");
 Dialog.addChoice("Image_Format：", newArray("All","tif/tiff","jpg/jpeg","png"), "All");
