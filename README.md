@@ -5,7 +5,7 @@ This pipeline contains two ImageJ/Fiji macros used for analyzing fluorescence mi
 --- 
 
 ### 1. AveragingCenteredonFoci-111023.ijm
-### Imput Requirement
+### Input Requirement
 This macro requires a multichannel TIFF image containing a single cell, typically obtained by cropping from a parent file such as a .czi, .lif, .nd2, or other microscope-specific format.
 - The TIFF must contain all relevant fluorescent channels (e.g., YFP-MCP, AF594, Hoechst).
 - Images may be Z-stacks or single planes; Z-stacks will be processed plane-by-plane.
