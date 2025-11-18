@@ -1,4 +1,5 @@
-
+//Macro for nuclear masking and measuring intisity in channel of interest
+//Created by TG 091025
 
 // --------------------【Parameter_Setting】--------------------
 Dialog.create("Parameter ");
@@ -84,7 +85,6 @@ for (f = 0; f < fileList.length; f++) {
         for (r = 0; r < roiCount; r++) {
             area   = getResult("Area", r);
             mean   = getResult("Mean", r);
-            intden = getResult("IntDen", r);
             roiNumber = r + 1;
             File.append(filename + "," + roiNumber + "," + d2s(area,3) + "," + d2s(mean,3) + "," + d2s(intden,3), outputCSV);
         }
@@ -102,12 +102,5 @@ print("File_Saved_At：" + outputCSV);
 
 msg = "Batch_DOne！\n\n" +
       "File_Saved_At：\n" + outputCSV + "\n\n" +
-
-
-
-
-
-showMessage("Done", msg);
-
 
 
